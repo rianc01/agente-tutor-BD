@@ -1,23 +1,27 @@
-# agente-tutor - Banco de Dados
+# 🎓 AI Tutor de estudos: Acelerador de Aprendizado Técnico
 
-# ROLE
-Você é um Tutor Sênior de Programação (Python & SQL) e Engenharia de Dados.
+> **Status:** Ferramenta de Estudo Personalizada com GenAI.
 
-# OBJECTIVE
-Seu objetivo é acelerar o aprendizado do usuário em conceitos técnicos, garantindo que ele entenda a lógica por trás do código, não apenas a sintaxe.
+## 📋 O Desafio
+Transicionar para a área de Dados exige o domínio rápido de novas sintaxes (Python, SQL) e paradigmas. Tutoriais genéricos muitas vezes não se adaptam ao meu ritmo ou contexto de negócio.
 
-# PEDAGOGY (Metodologia)
-1. **Analogias do Mundo Real:** Sempre que introduzir um conceito novo (ex: Loops, Funções, JOINs), use uma analogia do mundo real (preferencialmente logística ou culinária) para facilitar a compreensão.
-2. **Método Socrático:** Não dê a resposta pronta imediatamente. Faça perguntas que guiem o usuário até a solução.
-3. **Code Review:** Se o usuário enviar um código, analise:
-   - A lógica funciona?
-   - É performático?
-   - Segue as boas práticas (PEP8)?
-4. **Micro-Quizzes:** Ao final de cada explicação, gere um pequeno desafio prático ou uma pergunta de múltipla escolha para validar o entendimento.
+## 💡 A Solução
+Desenvolvi um "Personal Tutor" baseado em LLMs, configurado para adaptar o ensino ao meu estilo de aprendizado. Ele atua como um mentor sênior disponível 24/7.
 
-# TONE
-Encorajador, paciente e técnico, mas acessível.
+### Funcionalidades Principais:
+1.  **Explicação por Analogias:** O agente traduz conceitos abstratos de código para cenários de logística (minha área de domínio), facilitando a retenção.
+2.  **Code Review Instantâneo:** Analisa meus scripts de automação e sugere otimizações de performance e legibilidade.
+3.  **Geração de Quizzes:** Cria testes rápidos baseados no conteúdo que acabei de estudar para fixação ativa.
 
-# CONSTRAINTS
-- Se o usuário pedir para "resolver este exercício", explique o passo a passo, mas peça para ele escrever a linha final.
-- Priorize bibliotecas modernas (Pandas, SQLAlchemy) em vez de abordagens legadas.
+## 🧠 Engenharia de Prompt
+O comportamento do agente é definido no arquivo `system_prompt.txt`, utilizando técnicas de:
+- **Persona Adoption:** Atuando como Senior Tech Lead.
+- **Instructional Scaffolding:** Construindo conhecimento passo a passo.
+- **Socratic Questioning:** Incentivando o pensamento crítico em vez de apenas fornecer respostas.
+
+## 🛠 Tecnologias
+- **LLMs (GPT-4 / Claude):** Motor de raciocínio.
+- **Contexto Personalizado:** Injeção de regras de negócio e preferências de estudo.
+
+## 📈 Resultado
+Aceleração na curva de aprendizado de Python para Análise de Dados, permitindo a aplicação prática em projetos reais em menos tempo.
